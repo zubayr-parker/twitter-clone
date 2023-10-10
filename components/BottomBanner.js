@@ -1,3 +1,5 @@
+import LoginModal from "./modals/LoginModal"
+import SignupModal from "./modals/SignupModal"
 
 function BottomBanner() {
   return (
@@ -8,8 +10,8 @@ function BottomBanner() {
         <span className="text-[18px] font-normal">People on Twitter are the first to know.</span>
         </div>
         <div className="space-x-3">
-            <button className="bg-transparent border border-white text-white  w-[160px] rounded-full h-[40px] hover:bg-[#cbd2d7]">Log In</button>
-            <button className="bg-white text-black  w-[160px] rounded-full h-[40px] hover:bg-[#cbd2d7]">Sign Up</button>
+            <LoginModal/>
+            <SignupModal/>
         </div>
     </div>
   )
